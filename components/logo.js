@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import styles from 'styles/logo.module.css'
 
-export default function Logo() {
+export default function Logo({ box0n = false}) {
     return (
         <Link href="/">
-            <a>CUBE</a>
+            <a className={box0n ? styles.box : styles.basic}>CUBE</a>
         </Link>
     )
 }
