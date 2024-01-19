@@ -1,5 +1,6 @@
 import 'styles/globals.css'
 import Layout from 'components/layout'
+import 'styles/globals.css'
 
 //  Font Awesome の設定
 import '@fortawesome/fontawesome-svg-core/styles.css'
