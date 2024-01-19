@@ -1,3 +1,4 @@
+import Meta from 'next/head'
 import Container from 'components/container'
 import Hero from 'components/hero'
 import PostBody from 'components/post-body'
@@ -6,6 +7,8 @@ import Contact from 'components/contact'
 export default function about() {
     return (
         <Container>
+            <Meta pageTitle="アバウト" />
+            
             <Hero title="About" subtitle="About develoment activities" />
             
             <PostBody>
