@@ -2,9 +2,9 @@ import Meta from 'next/head'
 import Container from 'components/container'
 import Hero from 'components/hero'
 import PostBody from 'components/post-body'
-import { TwoColumn, TwoColumnMain, TwoColumnSidebar } from 'components/two-column'
+import TwoColumn from 'components/two-column'
 import Image from 'next/image'
-import eyecatch from 'images/about.jpg'
+import eyecatch from 'image/about.jpg'
 
 export default function about() {
     return (
